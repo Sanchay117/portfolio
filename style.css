@@ -1,0 +1,113 @@
+:root{
+    --white:#ecf0f1;
+    --black:#2c3e50;
+    --blue:#3498db;
+}
+
+body{
+    border: 0;
+    padding: 0;
+    margin:0;
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+    background-color: var(--black);
+    color:var(--white);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    font-size: 1.5rem;
+}
+
+#name {
+    font-weight: bold;
+    font-size: 2.2rem;
+    color: var(--blue);
+    text-decoration: none;
+    position: relative;
+}
+
+#name::after {
+    content: '';
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: var(--blue);
+    transition: width 0.3s ease;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+#name:hover::after {
+    width: 100%;
+}
+
+#menu {
+    display: flex;
+    gap: 20px;
+}
+
+.menu-items{
+    position: relative;
+    transition: color 0.3s ease-in;
+}
+
+.menu-items-underline::after{
+    content: '';
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: var(--blue);
+    transition: width 0.3s ease;
+}
+
+.menu-items-underline:hover::after{
+    width: 100%;
+}
+
+.menu-items:hover{
+    color: var(--blue);
+    cursor: pointer;
+}
+
+.bio {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; /* Center-aligns text inside both <h1> and <p> */
+}
+
+.bio h1 {
+    font-size: 5rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: var(--white);
+    margin: 0;
+    width: 100%; /* Ensures consistent alignment */
+}
+
+h1 span {
+    color:var(--blue);
+}
+
+.bio p {
+    color: var(--white);
+    margin: 0;
+    width: 50%; /* Retain the 50% width for a neat look */
+    text-align: center; /* Ensures the text inside <p> is also centered */
+    font-size:1.2rem;
+    padding-top: 20px;
+}

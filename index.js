@@ -8,7 +8,7 @@ function swapColors() {
 }
 
 let dark = true;
-const theme = document.getElementsByClassName("theme")[0];
+const theme = document.getElementById("theme");
 const menu = document.getElementById("hamburger");
 const modal = document.getElementById("modal");
 const modalLinks = document.querySelectorAll(".ham");
@@ -33,13 +33,24 @@ theme.addEventListener("click",()=>{
 
 menu.addEventListener("click",()=>{
 
+    menu.classList.add("bounce");
+
+    menu.addEventListener("animationend",()=>{
+        menu.classList.remove("bounce");
+    });
+
     if(!close){
         modal.style.display = "flex";
         menu.innerHTML = "×";
         menu.style.zIndex = 3;
+        document.getElementById("what").style.display = "none";
+        modalLinks.forEach(element => {
+            element.style.display = "block";
+        });
     }else{
         modal.style.display = "none";
         menu.innerHTML = '<span class="material-symbols-outlined">menu</span>';
+        document.getElementById("what").style.display = "block";
     }
 
     close=!close;
@@ -49,5 +60,8 @@ menu.addEventListener("click",()=>{
 modalLinks.forEach(element => {
     element.addEventListener("click",()=>{
         modal.style.display = "none";
+        document.getElementById("what").style.display = "block";
+        menu.innerHTML = '<span class="material-symbols-outlined">menu</span>';
+        close=!close;
     });
 });

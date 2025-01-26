@@ -77,7 +77,7 @@ a{
 }
 
 .menu-items:hover{
-    color: var(--blue);
+    color: var(--blue)!important;
     cursor: pointer;
 }
 
@@ -114,10 +114,7 @@ h1 span {
 }
 
 #hamburger{
-    /* display: none; */
-    cursor: pointer;
-    font-size: 2rem;
-    color: #ecf0f1;
+    display: none;
 }
 
 #modal{
@@ -152,10 +149,6 @@ h1 span {
     animation: bounce 0.25s ease-in-out;
 }
 
-
-#modal .menu-items{
-}
-
 @media (max-width: 768px) {
     .menu-items{
         display: none;
@@ -163,5 +156,17 @@ h1 span {
 
     #hamburger {
         display: block;
+    }
+
+    #theme{
+        display: block;
+    }
+
+    .bio h1{
+        font-size: 3rem;
+    }
+
+    .nav{
+        font-size: 1rem;
     }
 }

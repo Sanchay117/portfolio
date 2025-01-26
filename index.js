@@ -65,3 +65,40 @@ modalLinks.forEach(element => {
         close=!close;
     });
 });
+
+// resume btn
+
+let animateButton = function(e) {
+    e.preventDefault();
+    // Reset the animation by removing the 'animate' class
+    e.target.classList.remove('animate');
+    
+    // Trigger the animation by adding the 'animate' class again
+    e.target.classList.add('animate');
+};
+
+// Select all buttons with the class 'bubbly-button'
+let bubblyButtons = document.getElementsByClassName("bubbly-button");
+
+for (let i = 0; i < bubblyButtons.length; i++) {
+    // Add event listener for mouseenter (trigger animation)
+    bubblyButtons[i].addEventListener('mouseenter', animateButton, false);
+
+    // Add event listener for mouseleave (remove animation immediately when mouse leaves)
+    bubblyButtons[i].addEventListener('mouseleave', function(e) {
+        // Reset the animation immediately when the mouse leaves the button
+        e.target.classList.remove('animate');
+    }, false);
+
+    // Use 'animationend' to ensure the animation class is removed when animation ends
+    bubblyButtons[i].addEventListener('animationend', function(e) {
+        // The animation is complete, remove the 'animate' class for next time
+        e.target.classList.remove('animate');
+    }, false);
+}
+
+
+
+function openResume() {
+    window.open('2023478_SanchaySingh.pdf', '_blank');
+}

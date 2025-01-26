@@ -2,13 +2,15 @@
     --white:#ecf0f1;
     --black:#2c3e50;
     --blue:#3498db;
+    --dark-blue:#2980b9;
+    --dark-black:#2f3640;
 }
 
 body{
     border: 0;
     padding: 0;
     margin:0;
-    font-family: "Roboto", serif;
+    font-family: "Nunito", serif;
     font-optical-sizing: auto;
     background-color: var(--black);
     color:var(--white);
@@ -20,10 +22,12 @@ nav {
     align-items: center;
     padding: 20px;
     font-size: 1.5rem;
+    font-family: "Roboto",serif;
 }
 
 #name {
     font-weight: bold;
+    font-family: "Nunito",serif;
     font-size: 2.2rem;
     color: var(--blue);
     text-decoration: none;
@@ -92,7 +96,7 @@ a{
 
 .bio h1 {
     font-size: 5rem;
-    font-family: "Poppins", sans-serif;
+    font-family: "Nunito", serif;
     font-weight: 600;
     font-style: normal;
     color: var(--white);
@@ -147,6 +151,45 @@ h1 span {
 
 .bounce {
     animation: bounce 0.25s ease-in-out;
+}
+
+#links{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+#github{
+    font-size: 2.5rem;
+}
+
+#linkedIn{
+    font-size: 2.5rem;
+}
+
+#projects{
+    padding-top: 30px;
+    width: 75%;
+}
+
+#projects h1{
+    font-size: 3rem;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.card{
+    width: 96%;
+    height: 100%;
+    background-color: wheat;
+    margin-bottom: 15px;
 }
 
 @media (max-width: 768px) {

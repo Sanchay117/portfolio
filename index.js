@@ -2,9 +2,13 @@ function swapColors() {
     const root = document.documentElement; // Select the :root element
     const white = getComputedStyle(root).getPropertyValue('--white'); // Get the current value of --white
     const black = getComputedStyle(root).getPropertyValue('--black'); // Get the current value of --black
+    const dBlack = getComputedStyle(root).getPropertyValue('--dark-black');
+    const dWhite = getComputedStyle(root).getPropertyValue('--dark-white');
 
     root.style.setProperty('--white', black); // Set --white to the value of --black
     root.style.setProperty('--black', white); // Set --black to the value of --white
+    root.style.setProperty('--dark-white', dBlack); // Set --white to the value of --black
+    root.style.setProperty('--dark-black', dWhite); // Set --black to the value of --white
 }
 
 let dark = true;
@@ -12,6 +16,7 @@ const theme = document.getElementById("theme");
 const menu = document.getElementById("hamburger");
 const modal = document.getElementById("modal");
 const modalLinks = document.querySelectorAll(".ham");
+const nav = document.getElementsByTagName("nav");
 
 let close = false;
 

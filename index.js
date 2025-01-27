@@ -102,8 +102,35 @@ for (let i = 0; i < bubblyButtons.length; i++) {
     }, false);
 }
 
-
-
 function openResume() {
     window.open('2023478_SanchaySingh.pdf', '_blank');
+}
+
+function email() {
+    const recipient = "sanchay072@gmail.com"; // Replace with your email
+    const subject = "Contact from Your Portfolio"; // Optional: Customize the subject
+    const body = "Hello, I'd like to get in touch."; // Optional: Customize the email body
+
+    // Open the default email client
+    window.location.href = `mailto:${recipient}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+}
+
+// Get the button
+const backToTopButton = document.getElementById("backToTop");
+
+// Show or hide the button based on scroll position
+window.onscroll = function () {
+  if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+    backToTopButton.classList.add("show");
+  } else {
+    backToTopButton.classList.remove("show");
+  }
+};
+
+// Smooth scroll to the top when the button is clicked
+function scrollToTop() {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth",
+  });
 }

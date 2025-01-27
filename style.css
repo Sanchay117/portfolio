@@ -198,6 +198,28 @@ h1 span {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
+#skills .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.card-small {
+    height: 40px;
+    font-size: 2rem;
+    width: fit-content; /* Automatically adjusts to content width */
+    max-width: 100%; /* Prevents overflow in case of long text */
+    padding: 0 10px; /* Adds some spacing for better aesthetics */
+    background-color: var(--dark-black);
+    color: var(--white);
+    text-align: center;
+    border-radius: 5px;
+    justify-self: start; /* Aligns items to the start of the grid cell */
+}
+
+
 .card:hover {
     transform: translateY(-10px); /* Raise the card */
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhance the shadow */
@@ -232,6 +254,22 @@ h1 span {
     margin-top: 4px;
 }
 
+#skills{
+    padding-top: 30px;
+    width: 35%;
+}
+
+#skills h1{
+    font-size: 3rem;
+    margin-bottom: 15px;
+}
+
+#contact h1{
+    font-size: 3rem;
+    margin-bottom: 15px;
+    margin-top:30px;
+}
+
 @media (max-width: 768px) {
     .menu-items{
         display: none;
@@ -261,3 +299,30 @@ h1 span {
         font-size: 1rem;
     }
 }
+
+/* Style for the Back to Top button */
+#backToTop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    background-color: var(--black);
+    color: var(--blue);
+    text-align: center;
+    line-height: 50px;
+    font-size: 24px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 2rem;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s, visibility 0.3s;
+  }
+  
+  /* Show the button when active */
+  #backToTop.show {
+    opacity: 1;
+    visibility: visible;
+  }
+  

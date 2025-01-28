@@ -103,7 +103,7 @@ for (let i = 0; i < bubblyButtons.length; i++) {
 }
 
 function openResume() {
-    window.open('2023478_SanchaySingh.pdf', '_blank');
+    window.open('Resume.pdf', '_blank');
 }
 
 function email() {

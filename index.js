@@ -103,7 +103,7 @@ for (let i = 0; i < bubblyButtons.length; i++) {
 }
 
 function openResume() {
-    window.open('Resume.pdf', '_blank');
+    window.open('cv.pdf', '_blank');
 }
 
 function email() {

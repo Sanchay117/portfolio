@@ -9,22 +9,29 @@ export const siteConfig = {
         github: "https://github.com/Sanchay117",
     },
     aboutMe:
-        "I'm a Computer Science undergraduate who enjoys building software, solving problems, and exploring new ideas through code.I've worked on a variety of projects, from games and applications to more technical explorations.\nAlongside development, I'm also interested in research in areas like machine learning and AI. I like experimenting with concepts, reading papers, and turning ideas into small prototypes that help me understand the bigger picture.\nI actively take part in competitive programming and open-source contributions, both of which sharpen my skills and keep me connected with the developer community. My goal is to grow as both a practical developer and a curious researcher, combining the best of both worlds.",
+        "I'm a Computer Science undergraduate who enjoys building software, solving problems, and exploring new ideas through code.I've worked on a variety of projects, from games and applications to more technical explorations.\n\nAlongside development, I'm also interested in research in areas like machine learning and AI. I like experimenting with concepts, reading papers, and turning ideas into small prototypes that help me understand the bigger picture.\n\nI actively take part in competitive programming and open-source contributions, both of which sharpen my skills and keep me connected with the developer community. My goal is to grow as both a practical developer and a curious researcher, combining the best of both worlds.",
     skills: ["C++", "Python", "Node.js", "JavaScript", "Python", "Docker"],
     projects: [
         {
             name: "AgriAdvisor AI",
             description:
-                "An agriculture-focused AI chatbot powered by Retrieval-Augmented Generation (RAG) to provide source-cited answers and reduce hallucinations. Built with a <strong>1.5M-sentence</strong> indexed corpus and supports multilingual voice interaction in <strong>10+</strong> Indian languages.",
-            link: "https://aidevroundup.com/?ref=devportfolio",
-            skills: ["React", "Node.js", "AWS"],
+                "An agriculture-focused AI chatbot powered by Retrieval-Augmented Generation (RAG) to provide source-cited answers and reduce hallucinations. Built with a 1.5M-sentence indexed corpus and supports multilingual voice interaction in 10+ Indian languages.",
+            link: "https://github.com/Sanchay117/AgriAdvisor-AI",
+            skills: ["Python", "Django", "React", "RAG"],
         },
         {
-            name: "Chrome Extension Mastery: Build Full-Stack Extensions with React & Node.js",
+            name: "Twit",
             description:
-                "Master the art of building production-ready, full-stack Chrome Extensions using modern web technologies and best practices",
-            link: "https://fullstackextensions.com/?ref=devportfolio",
-            skills: ["React", "Node.js", "AWS"],
+                'A full-stack Twitter clone where tweets become "twits." Includes real-time posting, timelines, and a dedicated admin UI for content moderation. Social features include DMs, follow/unfollow, friend requests, reporting, and commenting for a complete microblogging experience.',
+            link: "https://github.com/Sanchay117/Twitter-Clone",
+            skills: [
+                "EJS",
+                "Node.js",
+                "HTML",
+                "CSS",
+                "Bootstrap",
+                "Javascript",
+            ],
         },
         {
             name: "ExtensionKit",

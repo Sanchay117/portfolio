@@ -23,7 +23,7 @@ export const siteConfig = {
             name: "Twit",
             description:
                 'A full-stack Twitter clone where tweets become "twits." Includes real-time posting, timelines, and a dedicated admin UI for content moderation. Social features include DMs, follow/unfollow, friend requests, reporting, and commenting for a complete microblogging experience.',
-            link: "https://github.com/Sanchay117/Twitter-Clone",
+            link: "https://twit-8g9x.onrender.com/",
             skills: [
                 "EJS",
                 "Node.js",
@@ -34,22 +34,22 @@ export const siteConfig = {
             ],
         },
         {
-            name: "ExtensionKit",
+            name: "Angry Birds",
             description:
-                "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
-            link: "https://extensionkit.io/?ref=devportfolio",
-            skills: ["React", "Node.js", "AWS"],
+                "A physics-based game built with Java and LibGDX, recreating the classic Angry Birds mechanics with object collisions, trajectory-based launches, and level progression.",
+            link: "https://github.com/Sanchay117/AngryBirds",
+            skills: ["Java", "LibGDX"],
         },
     ],
     experience: [
         {
-            company: "Tech Company",
-            title: "Senior Software Engineer",
-            dateRange: "Jan 2022 - Present",
+            company: "Motion Transfer via Neural Rendering",
+            title: "Research Assistant",
+            dateRange: "May 2025 - Present",
             bullets: [
-                "Led development of microservices architecture serving 1M+ users",
-                "Reduced API response times by 40% through optimization",
-                "Mentored team of 5 junior developers",
+                "Contributing to a research project on motion transfer using neural rendering (NeRFs and 3D Gaussian Splatting)",
+                "Curated a labeled dataset of 4D animated meshes paired with multi-view videos.",
+                "Assisting in building a foundation for training and evaluating neural rendering pipelines.",
             ],
         },
         {

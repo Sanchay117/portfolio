@@ -43,8 +43,8 @@ export const siteConfig = {
     ],
     experience: [
         {
-            company: "Motion Transfer via Neural Rendering",
-            title: "Research Assistant",
+            company: "Motion Transfer via Neural Rendering (IIIT Delhi)",
+            title: "Undergraduate Researcher",
             dateRange: "May 2025 - Present",
             bullets: [
                 "Contributing to a research project on motion transfer using neural rendering (NeRFs and 3D Gaussian Splatting)",
@@ -53,46 +53,43 @@ export const siteConfig = {
             ],
         },
         {
-            company: "Startup Inc",
-            title: "Full Stack Developer",
-            dateRange: "Jun 2020 - Dec 2021",
+            company: "ESoC 2025",
+            title: "Open Source Developer",
+            dateRange: "Jul 2025 - Oct 2025",
             bullets: [
-                "Built and launched MVP product from scratch using React and Node.js",
-                "Implemented CI/CD pipeline reducing deployment time by 60%",
-                "Collaborated with product team to define technical requirements",
+                "Contributed 2000+ lines of code and 10+ merged PRs to sktime and pgmpy, widely used libraries for time-series analysis and forecasting and causal modelling.",
+                "Implemented and refined forecasting modules (e.g., residual boosting forecaster), improving model flexibility and performance.",
+                "Engaged in collaborative code reviews and discussions with maintainers, aligning contributions with project standards.",
+                "Wrote unit tests and documentation to ensure reliability, clarity, and reproducibility of new features.",
             ],
         },
         {
-            company: "Digital Agency",
-            title: "Frontend Developer",
-            dateRange: "Aug 2018 - May 2020",
+            company: "University of Illinois Urbana-Champaign",
+            title: "Research Assistant",
+            dateRange: "Jun 2025 - Jul 2025",
             bullets: [
-                "Developed responsive web applications for 20+ clients",
-                "Improved site performance scores by 35% on average",
-                "Introduced modern JavaScript frameworks to legacy codebases",
+                "Worked under the guidance of Dr. Owolabi Legunsen as part of the UIUC+ Summer Research Program",
+                "Analyzed race condition reports produced by a static analysis tool on real-world open-source Java projects.",
+                "Classified race reports into true positives, benign races, or false positives through manual validation and code review.",
             ],
         },
     ],
     education: [
         {
-            school: "University Name",
-            degree: "Bachelor of Science in Computer Science",
-            dateRange: "2014 - 2018",
+            school: "IIIT Delhi",
+            degree: "Bachelor of Technology in Computer Science And Applied Mathematics",
+            dateRange: "2023 - 2027",
             achievements: [
-                "Graduated Magna Cum Laude with 3.8 GPA",
+                "Member of the Placement Committee",
                 "Dean's List all semesters",
                 "President of Computer Science Club",
             ],
         },
         {
-            school: "Online Platform",
-            degree: "Full Stack Development Certificate",
-            dateRange: "2019",
-            achievements: [
-                "Completed 500+ hours of coursework",
-                "Built 10+ portfolio projects",
-                "Specialized in React and Node.js",
-            ],
+            school: "DPS Vasant Kunj",
+            degree: "12th CBSE",
+            dateRange: "2021 - 2023",
+            achievements: ["Scored 95.2% in CBSE Class 12"],
         },
     ],
 };

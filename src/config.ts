@@ -6,11 +6,11 @@ export const siteConfig = {
     social: {
         email: "sanchay072@gmail.com",
         linkedin: "https://linkedin.com/in/sanchay-the-great",
-        github: "https://github.com/Sanchay117  ",
+        github: "https://github.com/Sanchay117",
     },
     aboutMe:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quos asperiores nihil consequatur tempore cupiditate architecto natus commodi corrupti quas quasi facere est, dignissimos odit nam veniam sapiente ut, vitae eligendi ipsum dolor, nostrum ullam impedit! Corrupti ratione mollitia temporibus necessitatibus, consectetur reiciendis recusandae id, dolorum quaerat, vero pariatur. Ratione!",
-    skills: ["Javascript", "React", "Node.js", "Python", "AWS", "Docker"],
+        "I'm a Computer Science undergraduate who enjoys building software, solving problems, and exploring new ideas through code. I've worked on a variety of projects, from games and applications to more technical explorations like data-driven models. Alongside development, I’m also interested in research in areas like machine learning and AI. I like experimenting with concepts, reading papers, and turning ideas into small prototypes that help me understand the bigger picture. I actively take part in competitive programming and open-source contributions, both of which sharpen my skills and keep me connected with the developer community. My goal is to grow as both a practical developer and a curious researcher, combining the best of both worlds.",
+    skills: ["C++", "Python", "Node.js", "JavaScript", "Python", "Docker"],
     projects: [
         {
             name: "AI Dev Roundup Newsletter",

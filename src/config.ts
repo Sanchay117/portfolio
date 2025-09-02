@@ -9,13 +9,13 @@ export const siteConfig = {
         github: "https://github.com/Sanchay117",
     },
     aboutMe:
-        "I'm a Computer Science undergraduate who enjoys building software, solving problems, and exploring new ideas through code. I've worked on a variety of projects, from games and applications to more technical explorations like data-driven models. Alongside development, I’m also interested in research in areas like machine learning and AI. I like experimenting with concepts, reading papers, and turning ideas into small prototypes that help me understand the bigger picture. I actively take part in competitive programming and open-source contributions, both of which sharpen my skills and keep me connected with the developer community. My goal is to grow as both a practical developer and a curious researcher, combining the best of both worlds.",
+        "I'm a Computer Science undergraduate who enjoys building software, solving problems, and exploring new ideas through code.I've worked on a variety of projects, from games and applications to more technical explorations.\nAlongside development, I'm also interested in research in areas like machine learning and AI. I like experimenting with concepts, reading papers, and turning ideas into small prototypes that help me understand the bigger picture.\nI actively take part in competitive programming and open-source contributions, both of which sharpen my skills and keep me connected with the developer community. My goal is to grow as both a practical developer and a curious researcher, combining the best of both worlds.",
     skills: ["C++", "Python", "Node.js", "JavaScript", "Python", "Docker"],
     projects: [
         {
-            name: "AI Dev Roundup Newsletter",
+            name: "AgriAdvisor AI",
             description:
-                "One concise email. Five minutes. Every Tuesday. Essential AI news & trends, production-ready libraries, powerful AI tools, and real-world code examples",
+                "An agriculture-focused AI chatbot powered by Retrieval-Augmented Generation (RAG) to provide source-cited answers and reduce hallucinations. Built with a <strong>1.5M-sentence</strong> indexed corpus and supports multilingual voice interaction in <strong>10+</strong> Indian languages.",
             link: "https://aidevroundup.com/?ref=devportfolio",
             skills: ["React", "Node.js", "AWS"],
         },

@@ -79,11 +79,7 @@ export const siteConfig = {
             school: "IIIT Delhi",
             degree: "Bachelor of Technology in Computer Science And Applied Mathematics",
             dateRange: "2023 - 2027",
-            achievements: [
-                "Member of the Placement Committee",
-                "Dean's List all semesters",
-                "President of Computer Science Club",
-            ],
+            achievements: ["Member of the Placement Committee"],
         },
         {
             school: "DPS Vasant Kunj",

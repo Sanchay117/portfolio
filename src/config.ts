@@ -9,7 +9,7 @@ export const siteConfig = {
         github: "https://github.com/Sanchay117",
     },
     aboutMe:
-        "I'm a Computer Science undergraduate who enjoys building software, solving problems, and exploring new ideas through code.I've worked on a variety of projects, from games and applications to more technical explorations.\n\nAlongside development, I'm also interested in research in areas like machine learning and AI. I like experimenting with concepts, reading papers, and turning ideas into small prototypes that help me understand the bigger picture.\n\nI actively take part in competitive programming and open-source contributions, both of which sharpen my skills and keep me connected with the developer community. My goal is to grow as both a practical developer and a curious researcher, combining the best of both worlds.",
+        "I'm a Computer Science undergraduate who enjoys building software, solving problems, and exploring new ideas through code. Alongside development, I'm also interested in research in areas like machine learning and AI. I actively take part in competitive programming and open-source contributions, both of which sharpen my skills and keep me connected with the developer community. My goal is to grow as both a practical developer and a curious researcher, combining the best of both worlds.",
     skills: ["C++", "Python", "Node.js", "JavaScript", "Python", "Docker"],
     projects: [
         {

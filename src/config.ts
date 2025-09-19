@@ -10,19 +10,19 @@ export const siteConfig = {
     },
     aboutMe:
         "I'm a Computer Science undergraduate who enjoys building software, solving problems, and exploring new ideas through code. Alongside development, I'm also interested in research in areas like machine learning and AI. I actively take part in competitive programming and open-source contributions, both of which sharpen my skills and keep me connected with the developer community. My goal is to grow as both a practical developer and a curious researcher, combining the best of both worlds.",
-    skills: ["C++", "Python", "Node.js", "JavaScript", "Python", "Docker"],
+    skills: ["C++", "Python", "Node.js", "JavaScript", "Java"],
     projects: [
         {
             name: "AgriAdvisor AI",
             description:
                 "An agriculture-focused AI chatbot powered by Retrieval-Augmented Generation (RAG) to provide source-cited answers and reduce hallucinations. Built with a 1.5M-sentence indexed corpus and supports multilingual voice interaction in 10+ Indian languages.",
             link: "https://github.com/Sanchay117/AgriAdvisor-AI",
-            skills: ["Python", "Django", "React", "RAG"],
+            skills: ["Python", "Django", "React"],
         },
         {
             name: "Twit",
             description:
-                'A full-stack Twitter clone where tweets become "twits." Includes real-time posting, timelines, and a dedicated admin UI for content moderation. Social features include DMs, follow/unfollow, friend requests, reporting, and commenting for a complete microblogging experience.',
+                'A full-stack Twitter clone where tweets become "twits". Includes real-time posting, timelines, and a dedicated admin UI for content moderation. Social features include DMs, follow/unfollow, friend requests, reporting, and commenting for a complete microblogging experience.',
             link: "https://twit-8g9x.onrender.com/",
             skills: [
                 "EJS",

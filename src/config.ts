@@ -52,27 +52,6 @@ export const siteConfig = {
                 "Assisting in building a foundation for training and evaluating neural rendering pipelines.",
             ],
         },
-        {
-            company: "ESoC 2025",
-            title: "Open Source Developer",
-            dateRange: "Jul 2025 - Oct 2025",
-            bullets: [
-                "Contributed 2000+ lines of code and 10+ merged PRs to sktime and pgmpy, widely used libraries for time-series analysis and forecasting and causal modelling.",
-                "Implemented and refined forecasting modules (e.g., residual boosting forecaster), improving model flexibility and performance.",
-                "Engaged in collaborative code reviews and discussions with maintainers, aligning contributions with project standards.",
-                "Wrote unit tests and documentation to ensure reliability, clarity, and reproducibility of new features.",
-            ],
-        },
-        {
-            company: "University of Illinois Urbana-Champaign",
-            title: "Research Assistant",
-            dateRange: "Jun 2025 - Jul 2025",
-            bullets: [
-                "Worked under the guidance of Dr. Owolabi Legunsen as part of the UIUC+ Summer Research Program",
-                "Analyzed race condition reports produced by a static analysis tool on real-world open-source Java projects.",
-                "Classified race reports into true positives, benign races, or false positives through manual validation and code review.",
-            ],
-        },
     ],
     education: [
         {
